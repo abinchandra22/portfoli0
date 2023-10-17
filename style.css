@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bungee+Shade&family=Molle&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav li a {
+    margin-left: 80px;
+
+}
+
+.navbar {
+    background-color: #0088a9;
+
+}
+
+#nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-size: cover;
+}
+
+#first {
+    /* background-color: springgreen; */
+    margin-top: 1rem;
+
+}
+
+.home {
+    margin-left: 10rem;
+    margin-top: 10rem;
+    font-family: 'Arvo', serif;
+}
+
+.para1 {
+    margin-left: 13.5rem;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: black;
+
+}
+
+.img1:hover {
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+/* button */
+.bn39 {
+    background-image: linear-gradient(135deg, #008aff, #86d472);
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: block;
+    height: 50px;
+    font-size: 1.4em;
+    font-weight: 600;
+    padding: 4px;
+    /* position: relative; */
+    text-decoration: none;
+    width: 7em;
+    z-index: 2;
+    margin-left: 14rem;
+}
+
+.bn39:hover {
+    color: #fff;
+}
+
+.bn39 .bn39span {
+    align-items: center;
+    background: #0e0e10;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: "background 0.5s ease";
+    width: 100%;
+}
+
+.bn39:hover .bn39span {
+    background: transparent;
+}
+/* about me */
+.about {
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-family: 'Arvo', serif;
+
+}
+.about2{
+    margin-left: 3rem;
+    margin-top: 2rem; 
+    margin-bottom: 25rem;
+    font-size: 1.2rem;
+}
+/* skill */
+.skill{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-family: 'Arvo', serif;
+}
+
+.skill2{
+    margin-left: 3rem;
+    margin-top: 5rem; 
+}
+.progress:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skill3{
+    margin-left: 3rem;
+    margin-top: 2rem; 
+}
+/* project */
+.project{
+    margin-left: 10rem;
+    margin-top: 5rem;
+    font-family: 'Arvo', serif;
+}
+.car{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.card:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.p1{
+    font-size: medium;
+    font-weight: bolder;
+}
+.fa-brands{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+@media(max-width:200px) {
+    #m1 {
+        font-size: 0.6rem;
+    }
+
+    ul {
+        font-size: 0.6rem;
+    }
+    
+}
+/* @media(max-width:575px){
+    #im{
+        width: min-content;
+    }
+   
+} */
+@media(max-width:527px){
+    .skill2{
+        width: 100%;
+        
+    }
+    .skill3{
+        width: 100%;
+    }
+    .p1{
+        font-size: xx-small;
+    }
+}
+@media(max-width:312px){
+  .ss{
+    font-size: small;
+    font-weight: bold;
+  } 
+  
+  }
+  @media(max-width:326px){
+
+  .about3{
+    font-size: small;
+    font-weight: bold;
+  }
+
+  }
+
+  @media(max-width:370px){
+.bn39span{
+    font-size: xx-small;
+  }
+  .navbar-toggler{
+    font-size: xx-small
+    };
+  }
+
